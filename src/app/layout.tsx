@@ -49,6 +49,9 @@ export const metadata: Metadata = {
     description:
       "Where the Himalayas meet haute cuisine. Reserve your table today.",
   },
+  icons: {
+    icon: "/favicon.svg",
+  },
 };
 
 function LocalBusinessJsonLd() {
