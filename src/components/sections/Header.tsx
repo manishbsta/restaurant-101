@@ -61,7 +61,7 @@ export function Header() {
           <div className="flex h-10 w-10 items-center justify-center rounded-full border border-gold/40 transition-colors group-hover:border-gold">
             <span className="font-serif text-lg font-bold text-gold">M</span>
           </div>
-          <span className="hidden font-serif text-xl font-semibold tracking-wide text-cream sm:block">
+          <span className={`hidden font-serif text-xl font-semibold tracking-wide sm:block transition-colors ${isScrolled || isMobileMenuOpen ? "text-cream" : "text-[#f5f0e8]"}`}>
             {RESTAURANT_NAME}
           </span>
         </a>
@@ -71,7 +71,7 @@ export function Header() {
             <a
               key={link.href}
               href={link.href}
-              className="relative text-sm font-medium tracking-wider text-cream/70 uppercase transition-colors hover:text-gold after:absolute after:-bottom-1 after:left-0 after:h-px after:w-0 after:bg-gold after:transition-all after:duration-300 hover:after:w-full"
+              className={`relative text-sm font-medium tracking-wider uppercase transition-colors hover:text-gold after:absolute after:-bottom-1 after:left-0 after:h-px after:w-0 after:bg-gold after:transition-all after:duration-300 hover:after:w-full ${isScrolled || isMobileMenuOpen ? "text-cream/70" : "text-[#f5f0e8]/70"}`}
             >
               {link.label}
             </a>
@@ -80,7 +80,7 @@ export function Header() {
           <LiveStatusBadge />
           <a
             href="#contact"
-            className="rounded-full bg-gold px-5 py-2 text-sm font-semibold text-charcoal transition-all hover:bg-gold/90 hover:shadow-lg hover:shadow-gold/20"
+            className="rounded-full bg-gold px-5 py-2 text-sm font-semibold text-black transition-all hover:bg-gold/90 hover:shadow-lg hover:shadow-gold/20"
           >
             Reserve a Table
           </a>
@@ -88,7 +88,7 @@ export function Header() {
 
         <button
           type="button"
-          className="inline-flex items-center justify-center rounded-md p-2 text-cream transition-colors hover:text-gold lg:hidden"
+          className={`inline-flex items-center justify-center rounded-md p-2 transition-colors hover:text-gold lg:hidden ${isScrolled || isMobileMenuOpen ? "text-cream" : "text-[#f5f0e8]"}`}
           onClick={() => setIsMobileMenuOpen(!isMobileMenuOpen)}
           aria-label={isMobileMenuOpen ? "Close menu" : "Open menu"}
           aria-expanded={isMobileMenuOpen}
@@ -132,7 +132,7 @@ export function Header() {
               <a
                 href="#contact"
                 onClick={(e) => handleMobileNavClick(e, "#contact")}
-                className="mt-2 inline-flex items-center justify-center rounded-full bg-gold px-6 py-3 text-sm font-semibold text-charcoal"
+                className="mt-2 inline-flex items-center justify-center rounded-full bg-gold px-6 py-3 text-sm font-semibold text-black"
               >
                 Reserve a Table
               </a>

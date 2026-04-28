@@ -21,8 +21,8 @@ export function Hero() {
           sizes="100vw"
           quality={85}
         />
-        <div className="absolute inset-0 bg-linear-to-b from-charcoal/70 via-charcoal/50 to-charcoal" />
-        <div className="absolute inset-0 bg-linear-to-r from-charcoal/60 via-transparent to-charcoal/60" />
+        <div className="absolute inset-0 bg-linear-to-b from-black/70 via-black/50 to-black/80" />
+        <div className="absolute inset-0 bg-linear-to-r from-black/60 via-transparent to-black/60" />
       </div>
 
       <div className="relative z-10 mx-auto max-w-4xl px-6 text-center">
@@ -37,7 +37,7 @@ export function Hero() {
         </motion.div>
 
         <motion.h1
-          className="mb-6 break-words font-serif text-5xl font-bold leading-tight tracking-tight text-cream sm:text-6xl md:text-7xl lg:text-8xl"
+          className="mb-6 wrap-break-word font-serif text-5xl font-bold leading-tight tracking-tight text-[#f5f0e8] sm:text-6xl md:text-7xl lg:text-8xl"
           initial={{ opacity: 0, y: 40 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.8, delay: 0.15, ease: [0.16, 1, 0.3, 1] }}
@@ -46,7 +46,7 @@ export function Hero() {
         </motion.h1>
 
         <motion.p
-          className="mx-auto mb-10 max-w-2xl text-lg leading-relaxed text-cream/60 sm:text-xl"
+          className="mx-auto mb-10 max-w-2xl text-lg leading-relaxed text-[#f5f0e8]/60 sm:text-xl"
           initial={{ opacity: 0, y: 30 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.8, delay: 0.3, ease: [0.16, 1, 0.3, 1] as const }}
@@ -63,13 +63,13 @@ export function Hero() {
         >
           <a
             href="#menu"
-            className="inline-flex items-center justify-center rounded-full bg-gold px-8 py-3.5 text-sm font-semibold uppercase tracking-wider text-charcoal transition-all hover:bg-gold/90 hover:shadow-lg hover:shadow-gold/20"
+            className="inline-flex items-center justify-center rounded-full bg-gold px-8 py-3.5 text-sm font-semibold uppercase tracking-wider text-black transition-all hover:bg-gold/90 hover:shadow-lg hover:shadow-gold/20"
           >
             Explore the Menu
           </a>
           <a
             href="#contact"
-            className="inline-flex items-center justify-center rounded-full border border-cream/20 px-8 py-3.5 text-sm font-medium uppercase tracking-wider text-cream transition-all hover:border-gold/50 hover:text-gold"
+            className="inline-flex items-center justify-center rounded-full border border-[#f5f0e8]/20 px-8 py-3.5 text-sm font-medium uppercase tracking-wider text-[#f5f0e8] transition-all hover:border-gold/50 hover:text-gold"
           >
             Reserve a Table
           </a>
@@ -85,7 +85,7 @@ export function Hero() {
         <a
           href="#menu"
           aria-label="Scroll down to menu"
-          className="flex flex-col items-center gap-2 text-cream/40 transition-colors hover:text-gold"
+          className="flex flex-col items-center gap-2 text-[#f5f0e8]/40 transition-colors hover:text-gold"
         >
           <span className="text-xs uppercase tracking-widest">Scroll</span>
           <motion.div

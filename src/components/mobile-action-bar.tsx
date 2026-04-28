@@ -23,7 +23,7 @@ export function MobileActionBar() {
         </a>
         <motion.a
           href={`tel:${RESTAURANT_PHONE}`}
-          className="flex min-w-0 flex-1 items-center justify-center gap-2 overflow-hidden rounded-lg bg-gold px-4 py-3 text-sm font-semibold text-charcoal transition-colors hover:bg-gold/90"
+          className="flex min-w-0 flex-1 items-center justify-center gap-2 overflow-hidden rounded-lg bg-gold px-4 py-3 text-sm font-semibold text-black transition-colors hover:bg-gold/90"
           whileTap={{ scale: 0.97 }}
           whileHover={{ scale: 1.02 }}
         >

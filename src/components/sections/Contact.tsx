@@ -128,7 +128,7 @@ export function Contact() {
             <div className="mt-10">
               <a
                 href={`tel:${RESTAURANT_PHONE}`}
-                className="inline-flex w-full items-center justify-center rounded-full bg-gold px-8 py-3.5 text-sm font-semibold uppercase tracking-wider text-charcoal transition-all hover:bg-gold/90 hover:shadow-lg hover:shadow-gold/20"
+                className="inline-flex w-full items-center justify-center rounded-full bg-gold px-8 py-3.5 text-sm font-semibold uppercase tracking-wider text-black transition-all hover:bg-gold/90 hover:shadow-lg hover:shadow-gold/20"
               >
                 <Phone className="mr-2 h-4 w-4" />
                 Call to Reserve
