@@ -144,6 +144,13 @@ html.light .border-border\/20 { border-color: rgba(229, 226, 220, 0.6) !importan
 html.light .border-border\/30 { border-color: rgba(229, 226, 220, 0.7) !important; }
 html.light .border-border\/50 { border-color: rgba(229, 226, 220, 0.9) !important; }
 
+html.light .text-emerald-300 { color: #059669 !important; }
+html.light .text-amber-300 { color: #d97706 !important; }
+html.light .bg-emerald-500\/10 { background-color: rgba(16, 185, 129, 0.12) !important; }
+html.light .bg-amber-500\/10 { background-color: rgba(245, 158, 11, 0.12) !important; }
+html.light .border-emerald-500\/30 { border-color: rgba(16, 185, 129, 0.35) !important; }
+html.light .border-amber-500\/30 { border-color: rgba(245, 158, 11, 0.35) !important; }
+
 html {
   scroll-behavior: smooth;
   overflow-x: hidden;
