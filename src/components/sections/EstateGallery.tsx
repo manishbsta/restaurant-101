@@ -141,7 +141,7 @@ export function EstateGallery() {
   return (
     <section
       id="estate"
-      className="bg-charcoal py-24 sm:py-32"
+      className="bg-charcoal py-24 sm:py-32 scroll-mt-24"
       aria-label="Estate and farmers market gallery"
     >
       <div className="mx-auto max-w-7xl space-y-24 px-6 lg:px-8 sm:space-y-32">

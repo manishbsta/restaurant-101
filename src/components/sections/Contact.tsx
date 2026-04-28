@@ -15,7 +15,7 @@ export function Contact() {
   return (
     <section
       id="contact"
-      className="relative bg-charcoal py-24 sm:py-32"
+      className="relative bg-charcoal py-24 sm:py-32 scroll-mt-24"
       aria-label="Reservations and contact"
     >
       <div className="mx-auto max-w-7xl px-6 lg:px-8">
