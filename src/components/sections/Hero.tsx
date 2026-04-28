@@ -13,7 +13,7 @@ export function Hero() {
     >
       <div className="absolute inset-0 z-0">
         <Image
-          src="https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?w=1920&q=80"
+          src="https://images.unsplash.com/photo-1559329007-40df8a9345d8?w=1920&q=80"
           alt="Elegant restaurant interior with warm ambient lighting"
           fill
           className="object-cover"
@@ -21,8 +21,9 @@ export function Hero() {
           sizes="100vw"
           quality={85}
         />
-        <div className="absolute inset-0 bg-linear-to-b from-black/70 via-black/50 to-black/80" />
-        <div className="absolute inset-0 bg-linear-to-r from-black/60 via-transparent to-black/60" />
+        <div className="absolute inset-0 bg-linear-to-b from-black/80 via-black/60 to-black/90" />
+        <div className="absolute inset-0 bg-linear-to-r from-black/70 via-black/40 to-black/70" />
+        <div className="absolute inset-0 bg-black/30" />
       </div>
 
       <div className="relative z-10 mx-auto max-w-4xl px-6 text-center">

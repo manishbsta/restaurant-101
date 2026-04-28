@@ -24,9 +24,9 @@ const cormorant = Cormorant_Garamond({
 });
 
 export const metadata: Metadata = {
-  title: "My F**king Restaurant — Fine Dining in the Heart of Nepal",
+  title: "The Best Restaurant — Fine Dining in the Heart of Nepal",
   description:
-    "Where the Himalayas meet haute cuisine. An intimate culinary journey forged in fire, rested in nature, and served with reverence. Reserve your table at My F**king Restaurant.",
+    "Where the Himalayas meet haute cuisine. An intimate culinary journey forged in fire, rested in nature, and served with reverence. Reserve your table at The Best Restaurant.",
   keywords: [
     "fine dining",
     "Nepal",
@@ -36,16 +36,16 @@ export const metadata: Metadata = {
     "luxury dining",
   ],
   openGraph: {
-    title: "My F**king Restaurant — Fine Dining in the Heart of Nepal",
+    title: "The Best Restaurant — Fine Dining in the Heart of Nepal",
     description:
       "Where the Himalayas meet haute cuisine. Reserve your table today.",
     type: "website",
     locale: "en_US",
-    siteName: "My F**king Restaurant",
+    siteName: "The Best Restaurant",
   },
   twitter: {
     card: "summary_large_image",
-    title: "My F**king Restaurant",
+    title: "The Best Restaurant",
     description:
       "Where the Himalayas meet haute cuisine. Reserve your table today.",
   },
@@ -59,9 +59,9 @@ function LocalBusinessJsonLd() {
         __html: JSON.stringify({
           "@context": "https://schema.org",
           "@type": "Restaurant",
-          name: "My F**king Restaurant",
+          name: "The Best Restaurant",
           image:
-            "https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?w=1200&q=80",
+            "https://images.unsplash.com/photo-1559329007-40df8a9345d8?w=1200&q=80",
           url: "https://myfkingrestaurant.com",
           telephone: "+977-1-456-7890",
           priceRange: "$$$",

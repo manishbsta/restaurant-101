@@ -3,9 +3,9 @@ export interface DaySchedule {
   close: number;
 }
 
-export const RESTAURANT_NAME = "My F**king Restaurant";
+export const RESTAURANT_NAME = "The Best Restaurant";
 export const RESTAURANT_PHONE = "+977-1-456-7890";
-export const RESTAURANT_EMAIL = "reserve@myfkingrestaurant.com";
+export const RESTAURANT_EMAIL = "reserve@thebestrestaurant.com";
 export const RESTAURANT_ADDRESS = {
   streetAddress: "Jhamsikhel Road, Lalitpur",
   addressLocality: "Lalitpur",
